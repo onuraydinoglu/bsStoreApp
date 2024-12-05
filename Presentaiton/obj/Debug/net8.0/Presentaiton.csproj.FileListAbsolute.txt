@@ -17,3 +17,4 @@ C:\Users\onura\Desktop\bsStroeApp\Presentaiton\obj\Debug\net8.0\Presentaiton.dll
 C:\Users\onura\Desktop\bsStroeApp\Presentaiton\obj\Debug\net8.0\refint\Presentaiton.dll
 C:\Users\onura\Desktop\bsStroeApp\Presentaiton\obj\Debug\net8.0\Presentaiton.pdb
 C:\Users\onura\Desktop\bsStroeApp\Presentaiton\obj\Debug\net8.0\ref\Presentaiton.dll
+C:\Users\onura\Desktop\bsStroeApp\Presentaiton\obj\Debug\net8.0\Presentaiton.sourcelink.json
