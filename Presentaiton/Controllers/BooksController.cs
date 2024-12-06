@@ -33,14 +33,15 @@ public class BooksController : ControllerBase
     }
 
     [HttpPost("add")]
-    public IActionResult Create(Book book)
+    public IActionResult Create(BookDtoForInsertion bookDto)
     {
-        if (book is null)
-        {
+        if (bookDto is null)
             return BadRequest();
-        }
 
-        _manager.BookService.CreateOneBook(book);
+        if (!ModelState.IsValid)
+            return UnprocessableEntity(ModelState);
+
+        var book = _manager.BookService.CreateOneBook(bookDto);
 
         return StatusCode(201, book);
     }
@@ -52,6 +53,9 @@ public class BooksController : ControllerBase
         {
             return BadRequest();
         }
+
+        if (!ModelState.IsValid)
+            return UnprocessableEntity(ModelState);
 
         _manager.BookService.UpdateOneBook(id, bookDto, true);
 

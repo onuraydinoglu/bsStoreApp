@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using NLog;
 using Services.Contracts;
 using WebApi.Extensions;
@@ -16,6 +17,11 @@ builder.Services.AddControllers(config =>
 .AddCustomCsvFormatter()
 .AddXmlDataContractSerializerFormatters()
 .AddApplicationPart(typeof(Presentaiton.AssemblyReference).Assembly);
+
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
