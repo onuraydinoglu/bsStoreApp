@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using NLog;
+using Presentaiton.ActionFilter;
 using Services.Contracts;
 using WebApi.Extensions;
 
@@ -31,6 +32,7 @@ builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.ConfigureActionFilter();
 
 var app = builder.Build();
 

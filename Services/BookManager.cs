@@ -29,11 +29,7 @@ public class BookManager : IBookService
 
     public async Task DeleteOneBookAsync(int id, bool trackChanges)
     {
-        var result = await _manager.Book.GetOneBookByIdAsync(id, trackChanges);
-        if (result is null) {
-            throw new BookNotFoundException(id);
-        }
-
+        var result = await GetOneBookByIdAndCheckExists(id, trackChanges);
         _manager.Book.DeleteOneBook(result);
         await _manager.SaveAsync();
     }
@@ -47,22 +43,12 @@ public class BookManager : IBookService
     public async Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)
     {
         var book = await _manager.Book.GetOneBookByIdAsync(id, trackChanges);
-        if (book is null)
-        {
-            throw new BookNotFoundException(id);
-        }
         return _mapper.Map<BookDto>(book);
     }
 
     public async Task UpdateOneBookAsync(int id, BookDtoForUpdate bookDto, bool trackChanges)
     {
         var result = await _manager.Book.GetOneBookByIdAsync(id, trackChanges);
-        if(result is null)
-        {
-            string msg = $"Book with id:{id} could not found.";
-            _logger.LogInfo(msg);
-            throw new Exception(msg);
-        }
 
         // Mapper
         // result.Title = book.Title;
@@ -72,6 +58,16 @@ public class BookManager : IBookService
 
         _manager.Book.Update(result);
         await _manager.SaveAsync();
+    }
+
+    private async Task<Book> GetOneBookByIdAndCheckExists(int id, bool trackChanges)
+    {
+        var entity = await _manager.Book.GetOneBookByIdAsync(id, trackChanges);
+
+        if(entity is null)
+            throw new BookNotFoundException(id);
+
+        return entity;
     }
 
 }
