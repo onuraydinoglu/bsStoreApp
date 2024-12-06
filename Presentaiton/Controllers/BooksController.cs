@@ -18,22 +18,22 @@ public class BooksController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult GetAll()
+    public async Task<IActionResult> GetAllAsync()
     {
-        var result = _manager.BookService.GetAllBooks(false);
+        var result = await _manager.BookService.GetAllBooksAsync(false);
         return Ok(result);
     }
 
     [HttpGet("id")]
-    public IActionResult GetById(int id)
+    public async Task<IActionResult> GetByIdAsync(int id)
     {
-        var result = _manager.BookService.GetOneBookById(id, false);
+        var result = await _manager.BookService.GetOneBookByIdAsync(id, false);
         
         return Ok(result);
     }
 
     [HttpPost("add")]
-    public IActionResult Create(BookDtoForInsertion bookDto)
+    public async Task<IActionResult> CreateAsync(BookDtoForInsertion bookDto)
     {
         if (bookDto is null)
             return BadRequest();
@@ -41,13 +41,13 @@ public class BooksController : ControllerBase
         if (!ModelState.IsValid)
             return UnprocessableEntity(ModelState);
 
-        var book = _manager.BookService.CreateOneBook(bookDto);
+        var book = await _manager.BookService.CreateOneBookAsync(bookDto);
 
         return StatusCode(201, book);
     }
 
     [HttpPut("update")]
-    public IActionResult Update(int id, BookDtoForUpdate bookDto)
+    public async Task<IActionResult> UpdateAsync(int id, BookDtoForUpdate bookDto)
     {
         if (bookDto is null)
         {
@@ -57,15 +57,15 @@ public class BooksController : ControllerBase
         if (!ModelState.IsValid)
             return UnprocessableEntity(ModelState);
 
-        _manager.BookService.UpdateOneBook(id, bookDto, true);
+        await _manager.BookService.UpdateOneBookAsync(id, bookDto, false);
 
         return NoContent();
     }
 
     [HttpDelete("delete")]
-    public IActionResult Delete(int id)
+    public async Task<IActionResult> DeleteAsync(int id)
     {
-        _manager.BookService.DeleteOneBook(id, false);
+        await _manager.BookService.DeleteOneBookAsync(id, false);
 
         return NoContent();
     }
