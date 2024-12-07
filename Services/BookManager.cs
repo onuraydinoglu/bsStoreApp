@@ -4,6 +4,7 @@ using Entities.Models;
 using Entities.RequestFeatures;
 using Repositories.Contracts;
 using Services.Contracts;
+using static Entities.Exceptions.BadRequestException;
 using static Entities.Exceptions.NotFoundException;
 
 namespace Services;
@@ -39,6 +40,9 @@ public class BookManager : IBookService
         GetAllBooksAsync(BookParameters bookParameters,
         bool trackChanges)
     {
+        if (!bookParameters.ValidPriceRange)
+            throw new PriceOutofRangeBadRequestException();
+
         var booksWithMetaData = await _manager
             .Book
             .GetAllBooksAsync(bookParameters, trackChanges);
