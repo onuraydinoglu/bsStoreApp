@@ -290,3 +290,17 @@
 2024-12-09 10:18:00.8386 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
 2024-12-09 10:18:00.8522 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
 2024-12-09 10:18:00.8660 Info Configuration initialized.
+2024-12-10 09:25:22.4832 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 09:25:22.4949 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 09:25:22.5056 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
+2024-12-10 09:25:22.5196 Info Configuration initialized.
+2024-12-10 10:04:27.0465 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 10:04:27.0908 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 10:04:27.0908 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
+2024-12-10 10:04:27.1183 Info Configuration initialized.
+2024-12-10 10:15:31.2012 Info AppDomain Shutting down. LogFactory closing...
+2024-12-10 10:15:31.2062 Info LogFactory has been closed.
+2024-12-10 10:17:09.3393 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-10 10:17:09.3393 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-10 10:17:09.3512 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
+2024-12-10 10:17:09.3512 Info Configuration initialized.

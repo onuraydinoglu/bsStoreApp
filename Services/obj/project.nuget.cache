@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eFACgc0QGxW9J/r9Mj0u7Imt5ag43OhvW93XSw/wMxYjr5LekQ41a6cVRfFQfdnNKlZO6eTY1lWjf3nFHbGpZQ==",
+  "dgSpecHash": "1DPRj8vI0FwJP8iD3EWY6baXzrzwxJks4iiHcVvdO3ag2O/EC9czyCqs5qSQWFznNTGcmjBxmjC7WQFXu9K8Tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Services\\Services.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,8 @@
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\nlog.extensions.logging\\5.3.15\\nlog.extensions.logging.5.3.15.nupkg.sha512",
-    "C:\\Users\\onura\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512"
+    "C:\\Users\\onura\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512",
+    "C:\\Users\\onura\\.nuget\\packages\\system.linq.dynamic.core\\1.5.0\\system.linq.dynamic.core.1.5.0.nupkg.sha512"
   ],
   "logs": []
 }

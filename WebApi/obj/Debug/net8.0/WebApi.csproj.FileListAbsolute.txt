@@ -180,3 +180,4 @@ C:\Users\onura\Desktop\bsStroeApp\WebApi\bin\Debug\net8.0\NLog.Extensions.Loggin
 C:\Users\onura\Desktop\bsStroeApp\WebApi\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\onura\Desktop\bsStroeApp\WebApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\onura\Desktop\bsStroeApp\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json
+C:\Users\onura\Desktop\bsStroeApp\WebApi\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll

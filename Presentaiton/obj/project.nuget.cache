@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hETCzLbDMuy6GiPQQ1DcBeREmrfjMdpslqC1XNIj1rWRu26y4sv5xePhF46zvbd9VYHPTbJte1llygpr+hr0qA==",
+  "dgSpecHash": "5HvvIM9fL5jDeWQHzsQ5h1vc3uLZ2b5woz44HeV7tSnFv1enG/MpzOGXRAoy1wRokaJG3wlljCoZ5PQqsSrx7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Presentaiton\\Presentaiton.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,7 @@
     "C:\\Users\\onura\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\onura\\.nuget\\packages\\system.linq.dynamic.core\\1.5.0\\system.linq.dynamic.core.1.5.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",
