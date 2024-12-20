@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using NLog;
 using Presentaiton.ActionFilter;
+using Services;
 using Services.Contracts;
 using WebApi.Extensions;
 
@@ -15,8 +16,8 @@ builder.Services.AddControllers(config =>
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
 })
-.AddCustomCsvFormatter()
 .AddXmlDataContractSerializerFormatters()
+.AddCustomCsvFormatter()
 .AddApplicationPart(typeof(Presentaiton.AssemblyReference).Assembly);
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
@@ -34,7 +35,9 @@ builder.Services.ConfigureLoggerService();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureActionFilter();
 builder.Services.ConfigureCors();
-builder.Services.configureDataShaper();
+builder.Services.ConfigureDataShaper();
+builder.Services.AddCustomMediaTypes();
+builder.Services.AddScoped<IBookLinks, BookLinks>();
 
 var app = builder.Build();
 

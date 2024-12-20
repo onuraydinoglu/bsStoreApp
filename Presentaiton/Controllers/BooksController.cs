@@ -3,6 +3,7 @@ using Entities.Models;
 using Entities.RequestFeatures;
 using Microsoft.AspNetCore.Mvc;
 using Presentaiton.ActionFilter;
+using Presentation.ActionFilters;
 using Services.Contracts;
 using System.Text.Json;
 using static Entities.Exceptions.NotFoundException;
@@ -22,16 +23,25 @@ public class BooksController : ControllerBase
     }
 
     [HttpGet]
+    [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
     public async Task<IActionResult> GetAllAsync([FromQuery] BookParameters bookParameters)
     {
-        var pagedResult = await _manager
-            .BookService
-            .GetAllBooksAsync(bookParameters ,false);
+        var linkParameters = new LinkParameters()
+        {
+            BookParameters = bookParameters,
+            HttpContext = HttpContext
+        };
 
-        Response.Headers.Add("X_Pegination",
-            JsonSerializer.Serialize(pagedResult.metaData));
-        
-        return Ok(pagedResult.books);
+        var result = await _manager
+            .BookService
+            .GetAllBooksAsync(linkParameters, false);
+
+        Response.Headers.Add("X-Pagination",
+            JsonSerializer.Serialize(result.metaData));
+
+        return result.linkResponse.HasLinks ?
+            Ok(result.linkResponse.LinkedEntities) :
+            Ok(result.linkResponse.ShapedEntities);
     }
 
     [HttpGet("id")]

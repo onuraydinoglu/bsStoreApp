@@ -314,3 +314,17 @@
 2024-12-11 13:56:18.7300 Info Configuration initialized.
 2024-12-11 14:18:20.5892 Info AppDomain Shutting down. LogFactory closing...
 2024-12-11 14:18:20.5892 Info LogFactory has been closed.
+2024-12-13 09:57:20.2450 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-13 09:57:20.2450 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-13 09:57:20.2450 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
+2024-12-13 09:57:20.2669 Info Configuration initialized.
+2024-12-13 09:58:01.3539 Info AppDomain Shutting down. LogFactory closing...
+2024-12-13 09:58:01.3539 Info LogFactory has been closed.
+2024-12-20 09:46:30.9616 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-20 09:46:30.9697 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-20 09:46:30.9697 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
+2024-12-20 09:46:30.9806 Info Configuration initialized.
+2024-12-20 09:50:15.2872 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-20 09:50:15.2976 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-20 09:50:15.3062 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
+2024-12-20 09:50:15.3062 Info Configuration initialized.

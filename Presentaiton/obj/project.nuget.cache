@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5HvvIM9fL5jDeWQHzsQ5h1vc3uLZ2b5woz44HeV7tSnFv1enG/MpzOGXRAoy1wRokaJG3wlljCoZ5PQqsSrx7w==",
+  "dgSpecHash": "n7MtBNnuzfxSrtBcjfWLXnRudrNt+ZeZYiSqxzRnjQcIr6PcdgVdxF92Dcza3vA1Ht8K4MsqxaFWW72OVxBaNA==",
   "success": true,
   "projectFilePath": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Presentaiton\\Presentaiton.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,7 @@
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.5\\microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.responsecaching.abstractions\\2.2.0\\microsoft.aspnetcore.responsecaching.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.0\\microsoft.aspnetcore.routing.2.2.0.nupkg.sha512",
+    "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.2.2\\microsoft.aspnetcore.routing.2.2.2.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
