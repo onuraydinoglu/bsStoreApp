@@ -22,7 +22,8 @@ public class BooksController : ControllerBase
         _manager = manager;
     }
 
-    [HttpGet]
+    [HttpHead]
+    [HttpGet(Name = "GetAllBooksAsync")]
     [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
     public async Task<IActionResult> GetAllAsync([FromQuery] BookParameters bookParameters)
     {
@@ -74,6 +75,13 @@ public class BooksController : ControllerBase
         await _manager.BookService.DeleteOneBookAsync(id, false);
 
         return NoContent();
+    }
+
+    [HttpOptions]
+    public IActionResult GetBooksOptions()
+    {
+        Response.Headers.Add("Allow", "GET, PUT, POST, PATCH, DELETE, HEAD, OPTIONS");
+        return Ok();
     }
 }
 

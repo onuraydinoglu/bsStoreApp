@@ -328,3 +328,15 @@
 2024-12-20 09:50:15.2976 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
 2024-12-20 09:50:15.3062 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
 2024-12-20 09:50:15.3062 Info Configuration initialized.
+2024-12-21 09:04:49.9009 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-21 09:04:49.9079 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-21 09:04:49.9079 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
+2024-12-21 09:04:49.9200 Info Configuration initialized.
+2024-12-21 09:05:04.9614 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-21 09:05:04.9713 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-21 09:05:04.9774 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
+2024-12-21 09:05:04.9774 Info Configuration initialized.
+2024-12-21 09:10:15.9004 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-21 09:10:15.9086 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-21 09:10:15.9086 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
+2024-12-21 09:10:15.9196 Info Configuration initialized.
