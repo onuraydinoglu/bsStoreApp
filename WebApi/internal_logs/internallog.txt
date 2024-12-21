@@ -340,3 +340,9 @@
 2024-12-21 09:10:15.9086 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
 2024-12-21 09:10:15.9086 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
 2024-12-21 09:10:15.9196 Info Configuration initialized.
+2024-12-21 10:33:40.9722 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-12-21 10:33:40.9854 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.4.2778. Product version: 5.3.4+73d83d3161d31288ca5c554cc50d27b6bed5f28b. GlobalAssemblyCache: False
+2024-12-21 10:33:40.9974 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\onura\Desktop\bsStroeApp\WebApi\nlog.config
+2024-12-21 10:33:41.0081 Info Configuration initialized.
+2024-12-21 10:38:16.5754 Info AppDomain Shutting down. LogFactory closing...
+2024-12-21 10:38:16.5859 Info LogFactory has been closed.

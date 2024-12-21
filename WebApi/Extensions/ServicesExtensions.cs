@@ -75,6 +75,9 @@ public static class ServicesExtensions
             {
                 systemTextJsonOutputFormatter.SupportedMediaTypes
                 .Add("application/vnd.btkakademi.hateoas+json");
+
+                systemTextJsonOutputFormatter.SupportedMediaTypes
+                .Add("application/vnd.btkakademi.apiroot+json");
             }
 
             var xmlOutputFormatter = config
@@ -85,6 +88,9 @@ public static class ServicesExtensions
             {
                 xmlOutputFormatter.SupportedMediaTypes
                 .Add("application/vnd.btkakademi.hateoas+xml");
+
+                xmlOutputFormatter.SupportedMediaTypes
+                .Add("application/vnd.btkakademi.apiroot+xml");
             }
         });
     }

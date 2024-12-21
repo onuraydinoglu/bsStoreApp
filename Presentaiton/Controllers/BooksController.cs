@@ -25,7 +25,7 @@ public class BooksController : ControllerBase
     [HttpHead]
     [HttpGet(Name = "GetAllBooksAsync")]
     [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
-    public async Task<IActionResult> GetAllAsync([FromQuery] BookParameters bookParameters)
+    public async Task<IActionResult> GetAllBooksAsync([FromQuery] BookParameters bookParameters)
     {
         var linkParameters = new LinkParameters()
         {
@@ -46,7 +46,7 @@ public class BooksController : ControllerBase
     }
 
     [HttpGet("id")]
-    public async Task<IActionResult> GetByIdAsync(int id)
+    public async Task<IActionResult> GetOneBookAsync(int id)
     {
         var result = await _manager.BookService.GetOneBookByIdAsync(id, false);
 
@@ -54,8 +54,8 @@ public class BooksController : ControllerBase
     }
 
     [ServiceFilter(typeof(ValidationFilterAttribute))]
-    [HttpPost("add")]
-    public async Task<IActionResult> CreateAsync(BookDtoForInsertion bookDto)
+    [HttpPost(Name = "CreateOneBookAsync")]
+    public async Task<IActionResult> CreateOneBookAsync(BookDtoForInsertion bookDto)
     {
         var book = await _manager.BookService.CreateOneBookAsync(bookDto);
         return StatusCode(201, book);
@@ -63,14 +63,14 @@ public class BooksController : ControllerBase
 
     [ServiceFilter(typeof(ValidationFilterAttribute))]
     [HttpPut("update")]
-    public async Task<IActionResult> UpdateAsync(int id, BookDtoForUpdate bookDto)
+    public async Task<IActionResult> UpdateOneBookAsync(int id, BookDtoForUpdate bookDto)
     {
         await _manager.BookService.UpdateOneBookAsync(id, bookDto, false);
         return NoContent();
     }
 
     [HttpDelete("delete")]
-    public async Task<IActionResult> DeleteAsync(int id)
+    public async Task<IActionResult> DeleteOneBookAsync(int id)
     {
         await _manager.BookService.DeleteOneBookAsync(id, false);
 
