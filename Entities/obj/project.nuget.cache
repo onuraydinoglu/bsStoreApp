@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "lpOeZVH/0UviLFNpAi2f3ITA8IrH7pmLYAfvQCwN3NmqQ1+SKZyCta5OE060XGF3JQBTq6XYvC905Ki2qfV/AA==",
+  "dgSpecHash": "KRcqV71QzJiffL58hclUo9OAUPZ9e/Z9m/IQooXsHvUxb0Kq5TiTXK5eucH/ilA8OS9vq5gYhnf7ylrTTRwOhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\onura\\Desktop\\bsStoreApp\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.2.0\\microsoft.aspnetcore.routing.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\onura\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "C:\\Users\\onura\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"

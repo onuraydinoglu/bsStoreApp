@@ -1,9 +1,16 @@
-﻿namespace Services.Contracts;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public interface ILoggerService
+namespace Services.Contracts
 {
-    void LogInfo(string message);
-    void LogWarning(string message);
-    void LogError(string message);
-    void LogDebugs(string message);
+    public interface ILoggerService
+    {
+        void LogInfo(string message);
+        void LogWarning(string message);
+        void LogError(string message);
+        void LogDebug(string message);
+    }
 }

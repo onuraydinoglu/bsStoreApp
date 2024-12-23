@@ -1,9 +1,18 @@
-﻿namespace Entities.Exceptions;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public abstract partial class BadRequestException : Exception
+namespace Entities.Exceptions
 {
-    protected BadRequestException(string message) : base(message)
+    public abstract class BadRequestException : Exception
     {
-         
+        protected BadRequestException(string message): 
+            base(message)
+        {
+
+        }
     }
+
 }

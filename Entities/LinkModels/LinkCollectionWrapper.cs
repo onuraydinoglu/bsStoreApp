@@ -1,15 +1,18 @@
-﻿namespace Entities.LinkModels;
-
-public class LinkCollectionWrapper<T> : LinkResourceBase
+﻿namespace Entities.LinkModels
 {
-    public List<T> Value { get; set; } = new List<T>();
-
-    public LinkCollectionWrapper(List<T> value)
+    public class LinkCollectionWrapper<T> : LinkResourceBase
     {
-        Value = value;
-    }
-    public LinkCollectionWrapper()
-    {
+        public List<T> Value { get; set; } = new List<T>();
 
+        public LinkCollectionWrapper(List<T> value)
+        {
+            Value = value;
+        }
+        public LinkCollectionWrapper()
+        {
+
+        }
     }
+   
+        
 }

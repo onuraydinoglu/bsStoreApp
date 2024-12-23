@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\onura\\Desktop\\bsStroeApp\\Repositories\\Repositories.csproj": {}
+    "C:\\Users\\onura\\Desktop\\bsStoreApp\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\onura\\Desktop\\bsStroeApp\\Entities\\Entities.csproj": {
+    "C:\\Users\\onura\\Desktop\\bsStoreApp\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\onura\\Desktop\\bsStoreApp\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\onura\\Desktop\\bsStoreApp\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\onura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\onura\\Desktop\\bsStoreApp\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -42,10 +42,10 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Http.Abstractions": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
               "target": "Package",
               "version": "[2.2.0, )"
             }
@@ -66,18 +66,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\onura\\Desktop\\bsStroeApp\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\onura\\Desktop\\bsStoreApp\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\onura\\Desktop\\bsStoreApp\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Repositories\\Repositories.csproj",
+        "projectPath": "C:\\Users\\onura\\Desktop\\bsStoreApp\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\onura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Repositories\\obj\\",
+        "outputPath": "C:\\Users\\onura\\Desktop\\bsStoreApp\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -88,7 +88,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -96,11 +96,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\onura\\Desktop\\bsStroeApp\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\onura\\Desktop\\bsStroeApp\\Entities\\Entities.csproj"
+              "C:\\Users\\onura\\Desktop\\bsStoreApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\onura\\Desktop\\bsStoreApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -112,16 +112,16 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[6.0.0, )"
             },
             "System.Linq.Dynamic.Core": {
               "target": "Package",
-              "version": "[1.5.0, )"
+              "version": "[1.2.23, )"
             }
           },
           "imports": [
@@ -140,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,17 +1,23 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
+﻿using Entities.Models;
 using Microsoft.EntityFrameworkCore;
-using Entities.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Repositories.EFCore.Config;
-
-public class BookConfig : IEntityTypeConfiguration<Book>
+namespace Repositories.EFCore.Config
 {
-    public void Configure(EntityTypeBuilder<Book> builder)
+    public class BookConfig : IEntityTypeConfiguration<Book>
     {
-        builder.HasData(
-            new Book { Id = 1, Title = "Lorem", Price = 150 },
-            new Book { Id = 2, Title = "Lorem", Price = 100 },
-            new Book { Id = 3, Title = "Lorem", Price = 75 }
-        );
+        public void Configure(EntityTypeBuilder<Book> builder)
+        {
+            builder.HasData(
+                new Book { Id = 1, Title = "Karagöz ve Hacivat", Price = 75 },
+                new Book { Id = 2, Title = "Mesnevi", Price = 175 },
+                new Book { Id = 3, Title = "Devlet", Price = 375 }
+            );
+        }
     }
 }
