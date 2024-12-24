@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mMXuLbBQ9bwisT9TEQwbxr/XpSooF7cwOChYVRWFqgVhkIPqhIwxbfhMRKZYsyK+xioxWvgcSWHhHL6ENer2rQ==",
+  "dgSpecHash": "ldHQkSrbHeBQTn9++PFEiajmUT6J6Ssg4RCKnyDMYy1LgYz54Ldr8Z3jYda2YK0p9CowmZ6ovp/O/zgJ6RRdlA==",
   "success": true,
   "projectFilePath": "C:\\Users\\onura\\Desktop\\bsStoreApp\\Presentation\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\onura\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\onura\\.nuget\\packages\\marvin.cache.headers\\6.0.0\\marvin.cache.headers.6.0.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\onura\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
