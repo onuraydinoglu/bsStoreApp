@@ -108,7 +108,7 @@ namespace WebApi.Extensions
 
                 opt.Conventions.Controller<BooksV2Controller>()
                     .HasDeprecatedApiVersion(new ApiVersion(2, 0));
-            });
+            }); 
         }
 
         public static void ConfigureResponseCaching(this IServiceCollection services) =>
@@ -235,6 +235,19 @@ namespace WebApi.Extensions
                 });
             });
         }
-        
+
+        public static void RegisterRepositories(this IServiceCollection services)
+        {
+            services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+        }
+
+        public static void RegisterServices(this IServiceCollection services)
+        {
+            services.AddScoped<IBookService, BookManager>();
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<IAuthenticationService, AuthenticationManager>();
+        }
+
     }
 }
